@@ -372,6 +372,22 @@ nav{
 	padding-left: 20px;
 }
 
+
+.overview{
+	width: 100%;
+	display: block;
+}
+
+
+
+.content li{
+	line-height: 1.6em;
+}
+
+.content ul, ol{
+	padding-bottom: 0.4em;
+}
+
 /*.invision_frame {
     position: relative;
     height: 0;
