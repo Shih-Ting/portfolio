@@ -75,7 +75,7 @@ p{
 	color: #595656;
 	/*font-size: 1em;*/
 	text-align: justify;
-	line-height: 1.5em;
+	line-height: 1.6em;
 	font-weight: light;
 	font-size: 1.03em;
 }
@@ -356,13 +356,24 @@ nav{
 	padding-top: 0.5em;
 }
 
+.none{
+	list-style-type: none;
+	list-style-position: inside;
+	padding-left: 20px;
+}
+
+.overview{
+	width: 100%;
+	display: block;
+}
+
+
 
 .content li{
-	line-height: 1.5em;
+	line-height: 1.6em;
 }
 
 .content ul, ol{
-	padding-top: 0.4em;
 	padding-bottom: 0.4em;
 }
 
@@ -403,7 +414,6 @@ iframe{
 }
 
 /*width="280" height="157.5"*/
-
 
 
 
