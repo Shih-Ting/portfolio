@@ -18,21 +18,21 @@
 
     .centered h2 {
         color: #fff;
-        font-size: 1em;
+        font-size: 1.2em;
     }
-    /*	.top-nav ul li a.pre, .top-nav ul li a.nxt{
-		visibility: hidden;
-	}
+    /*  .top-nav ul li a.pre, .top-nav ul li a.nxt{
+        visibility: hidden;
+    }
 
-	.top-nav ul li a.pre:after{
-		visibility: visible;
-		content:"<<";
-	}
+    .top-nav ul li a.pre:after{
+        visibility: visible;
+        content:"<<";
+    }
 
-	.top-nav ul li a.nxt:before{
-		visibility: visible;
-		content:">>";
-	}*/
+    .top-nav ul li a.nxt:before{
+        visibility: visible;
+        content:">>";
+    }*/
     h1 {
         font-size: 1.85em;
     }
@@ -40,11 +40,12 @@
         font-size: 1.2em;
     }
     h3 {
-        font-size: 1.15em;
+        font-size: 1.35em;
         line-height: 1.8em;
     }
     h4 {
         font-size: 1.14em;
+        margin-bottom: 0.2em;
     }
     h5 {
         font-size: 1.1em;
@@ -87,23 +88,39 @@
 
     /*Open img*/
     .intro {
+        padding-top: 16em;
+    }
+
+    .cover {
         padding-top: 6em;
     }
 
+    .work {
+        padding-top: 10em;
+    }
 
+    .intro br {
+        line-height: 1em;
+    }
 
     .photo-cell img {
         width: 100%;
         padding-right: 5%;
     }
-    /*	#caption1, #caption2{
-		width: 45%;
-	}*/
+    /*  #caption1, #caption2{
+        width: 45%;
+    }*/
     .photo-grid {
         display: inline-block;
         width: 48.5%;
         padding-right: 1%;
         padding-bottom: 1%;
+    }
+
+
+    .photo_des p {
+        padding-bottom: 4%;
+        text-decoration: none;
     }
 
     .photo-grid #item1,
@@ -131,13 +148,13 @@
         width: 100%;
         display: block;
     }
-    /*	#item1, #item2, #caption1, #caption2{
-		width: 47%;
-		display: inline-block;
-	}*/
-    /*	.photo-list{
-		width: 100%;
-	}*/
+    /*  #item1, #item2, #caption1, #caption2{
+        width: 47%;
+        display: inline-block;
+    }*/
+    /*  .photo-list{
+        width: 100%;
+    }*/
 }
 
 @media only screen and (min-width: 1000px) {
@@ -162,27 +179,27 @@
         color: #fff;
         font-size: 1.3em;
     }
-    /*	.top-nav ul li a.pre, .top-nav ul li a.nxt{
-		visibility: hidden;
-	}
+    /*  .top-nav ul li a.pre, .top-nav ul li a.nxt{
+        visibility: hidden;
+    }
 
-	.top-nav ul li a.pre:after{
-		visibility: visible;
-		content:"<<";
-	}
+    .top-nav ul li a.pre:after{
+        visibility: visible;
+        content:"<<";
+    }
 
-	.top-nav ul li a.nxt:before{
-		visibility: visible;
-		content:">>";
-	}*/
+    .top-nav ul li a.nxt:before{
+        visibility: visible;
+        content:">>";
+    }*/
     /*ul{
-		margin: 0.5em;
-	}
+        margin: 0.5em;
+    }
 
-	li{
-		line-height: 1.7em;
-		font-size: 1.5em;
-	}*/
+    li{
+        line-height: 1.7em;
+        font-size: 1.5em;
+    }*/
     h1 {
         font-size: 1.85em;
     }
@@ -190,7 +207,7 @@
         font-size: 1.2em;
     }
     h3 {
-        font-size: 1.15em;
+        font-size: 1.45em;
         line-height: 1.8em;
     }
     h4 {
@@ -210,10 +227,10 @@
         float: left;
         height: 70%;
     }
-    /*	.top-nav {
- 		display: flex;
- 		align-items: center;
-	}*/
+    /*  .top-nav {
+        display: flex;
+        align-items: center;
+    }*/
     .top-nav ul li {
         display: inline-block;
         border-top: none;
@@ -232,48 +249,55 @@
     li a:hover {
         color: #DCDDDD !important;
     }
-    /*	nav #topnav{
-		z-index: 1030;
-	}*/
-    /*	h3{
-		font-size: 0.8em;
-		margin-bottom: 0.3em;
-	}
-	h4{
-		font-size: 0.6em;
-		font-weight: normal;
-		margin: 0em 0em 1em 0em;
-	}*/
+    /*  nav #topnav{
+        z-index: 1030;
+    }*/
+    /*  h3{
+        font-size: 0.8em;
+        margin-bottom: 0.3em;
+    }
+    h4{
+        font-size: 0.6em;
+        font-weight: normal;
+        margin: 0em 0em 1em 0em;
+    }*/
     .top-nav .logo {
         float: left;
     }
-    /*	div .photo-grid{
-		margin-right: 0;
-		margin-left: 0;
-		width: 100%;
-	}
+    /*  div .photo-grid{
+        margin-right: 0;
+        margin-left: 0;
+        width: 100%;
+    }
 
-	.photo-cell{
-		width: 30%; 
-		display: inline-block;
-		float: left;
-		z-index: 2;
-	}*/
+    .photo-cell{
+        width: 30%; 
+        display: inline-block;
+        float: left;
+        z-index: 2;
+    }*/
     /*Open img*/
     .intro {
+        padding-top: 12em;
+        /*0em*/
+    }
+
+    .cover {
         padding-top: 0em;
     }
 
-
+    .work {
+        padding-top: 10em;
+    }
 
 
     .photo-cell img {
         width: 100%;
         padding-right: 5%;
     }
-    /*	#caption1, #caption2{
-		width: 45%;
-	}*/
+    /*  #caption1, #caption2{
+        width: 45%;
+    }*/
     .photo-grid {
         display: inline-block;
         width: 30%;
@@ -296,58 +320,60 @@
     }
 
 
-    .overview{
-    	width: 100%;
-    	display: inline-flex;
-    	padding-bottom: 0em;
+    .overview {
+        width: 100%;
+        display: inline-flex;
+        padding-bottom: 0em;
     }
 
-    .group1, .group2{
-    	width: 50%;
-    	display: inline-flex;
+    .group1,
+    .group2 {
+        width: 50%;
+        display: inline-flex;
     }
 
-    #info1{
-    	width: 108%;
+    #info1 {
+        width: 108%;
     }
 
-    .info{
-    	padding-bottom: 0.4em;
-    	padding-left: 0.1em;
-    	margin-right: auto;
-    	margin-left: auto;
+    .info {
+        padding-bottom: 0.4em;
+        padding-left: 0.1em;
+        margin-right: auto;
+        margin-left: auto;
     }
 
-    #info2{
-    	width: 83%;
+    #info2 {
+        width: 83%;
     }
 
-    #info1, #info3{
-    	width: 100%;
+    #info1,
+    #info3{
+        width: 90%;
     }
 
-    #info4{
-    	width: 120%;
+    #info4 {
+        width: 150%;
     }
-    /*	#item3, #item4{
-		width:21.25%;
-		display: inline-block;
-	}*/
-    /*	div .photo-grid{
-		display: inline-block;
-		position: relative;
-	}*/
+    /*  #item3, #item4{
+        width:21.25%;
+        display: inline-block;
+    }*/
+    /*  div .photo-grid{
+        display: inline-block;
+        position: relative;
+    }*/
     /*.caption*/
-    /*	#item1, #caption1 {
-		margin-top: 0;
-		margin-right:0;
-		width: 33%;
-		display: flex;
-		flex-direction: column;
-	}
+    /*  #item1, #caption1 {
+        margin-top: 0;
+        margin-right:0;
+        width: 33%;
+        display: flex;
+        flex-direction: column;
+    }
 */
-    /*	#item1, #item2{
-		display: inline-block;
-		width: 33%;
-	}*/
+    /*  #item1, #item2{
+        display: inline-block;
+        width: 33%;
+    }*/
 }
