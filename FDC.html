@@ -114,10 +114,10 @@
             <h3>Improve Lack of Intimacy Due to Long Distance</h3>
             <p>Being in a long-distance relationship (LDR) can be challenging not only because it's hard to create common goals and memories but also because it can severely wear the romance between partners <b>due to lack of intimacy</b>. Worst yet, the <b>blank between conversations</b> during video-chat can even lead to insecurities in a relationship.</p>
             <h4>Solution Overview</h4>
-            <p>To improve the sense of intimacy between partners in LDR, I came up with a game extension for Messenger which features a video-chat-based game, somatosensary interaction and a collaboration-based scoring mechanism. Face Dance Challenge is an extension that improves the lack of intimacy between couples at any stage of an LDR by filling up the blank between conversations, transmitting sense of touch, and creating a common goal for partners to achieve.</p> <a href="https://invis.io/6SERY10CF">Interact with High-Fi Prototype here.</a></strong>
-
+            <p>To improve the sense of intimacy between partners in LDR, I came up with a game extension for Messenger which features a video-chat-based game, somatosensary interaction and a collaboration-based scoring mechanism. Face Dance Challenge is an extension that improves the lack of intimacy between couples at any stage of an LDR by filling up the blank between conversations, transmitting sense of touch, and creating a common goal for partners to achieve.</p>
             <h4>Research</h4>
-            <p> To better understand my design challenge, I conducted a semi-constructed diary study on 3 relationship-related boards on the most popular BBS forum in Taiwan that preserves more than 20 years of records to understand the challenges that LDR couples in different stage of relationship would face.</strong> </p>
+            <p> To better understand my design challenge, I conducted a semi-constructed diary study on 3 relationship-related boards on the most popular BBS forum in Taiwan that preserves more than 20 years of records to understand the challenges that LDR couples in different stage of relationship would face.</strong>
+            </p>
             <h5>Understanding the Users</h5>
             <p>Based on my findings from the diary study, I built 4 personas, 3 pro-persona and 1 anti-persona, to better target the success of potential users -- most couples that have successfully conquered LDR share common goal in life and what bothers them the most is not having physical interactions.</p>
             <div id="persona_list">
@@ -143,28 +143,49 @@
             <p>To understand current digital solutions for LDR couples, I selected 5 top-rated applications designed for couples from the App Store. However, current solutions requires extra steps to connect and none of them provides physical interaction.</p>
             <img src="img/portfolio/FDC_compare.jpg" alt="comparative analyis">
             <h6>Comparative Analysis</h6>
-
-
             <h4>Design Approach</h4>
             <h5>Ideation: Solution Exploration</h5>
             <p>Based on research insights, I sketched out 8 different solutions, ranging from restaurant service design to waterproof remote control vibrator for sexual purposes. These solutions aims to help couples interact as if they were on each other's side.</p>
             <img src="img/portfolio/brainstorm.png" alt="brainstorm">
+            <h6>8 Solutions to the Challenge</h6>
             <br>
             <h5>Use Cases and Context (User Journey)</h5>
             <p>To understand how users would use Face Dance Challenge, I map out how couples in different stage of a relationship (crush, in a relationship, married) based on the 3 pro-personas.</p>
             <img src="img/portfolio/storymap.png" alt="user storymap">
             <h6>User Journey Map</h6>
-            <p>Based on the story map, I concluded that couples also use social media to connect with their loved ones and a lot of uncertainties about the relationship stems from the gaps between interactions. </p> <!-- Hence, I decided to go with Messenger and iPhone as the foundation of the game as Messenger is the most common way that partners are connected and iPhone screens can detect different degrees  of presses and creates haptic feedback. -->
+            <p>Based on the story map, I concluded that couples also use social media to connect with their loved ones and a lot of uncertainties about the relationship stems from the gaps between interactions. </p>
+            <!-- Hence, I decided to go with Messenger and iPhone as the foundation of the game as Messenger is the most common way that partners are connected and iPhone screens can detect different degrees  of presses and creates haptic feedback. -->
             <br>
             <h5>Design Synthesis &amp; Rationale</h5>
-            <p>Following story-mapping, QOC (Questions, Options and Criteria) rationale is implemented to explore the possibilities and challenges of different functionality.</p>
+            <p>Following story-mapping, <a href="https://drive.google.com/file/d/1JbCkS40tbirPz-eXj--dZ51ZmK9kenL9/view?usp=sharing">QOC (Questions, Options and Criteria) rationale</a> is implemented to explore the possibilities and challenges of different functionality.</p>
             <!-- <p>To check the validity of my final solution, I went through <strong>story-mapping to model user activities and their current potential ways of interacting with their couples.</strong> Finally, I <strong>iterate through <a href="https://drive.google.com/file/d/1JbCkS40tbirPz-eXj--dZ51ZmK9kenL9/view?usp=sharing">3 rounds of QOCs (Question, Options and Criteria)</a></strong> to explore the potential key features I want to include in my final design as well as how these features will be presented. </p> -->
             <h4>Rapid Prototyping</h4>
-            <!-- User Test & Iteration -->
-            <iframe src="https://www.youtube.com/embed/UCPuFhtKV34" allowfullscreen></iframe>
-            <h6>Low-fi prototype demonstration</h6>
-            <p>With clearer picture of how my final design would be like, I started to work on my low-fi prototypes that <strong>models 10 tasks and 15+ interactions</strong> I would like to test. </p>
-            <h4>Major Design Change</h4>
+            <p>To validate my research ideas and the initial design, I conducted a round of rapid prototyping and came up with 10 interactions to test with users.</p>
+            <h5>Paper Prototyping</h5>
+            <p>The first iteration is rapid prototyping on paper. My sketches include 2 major themes: 1) Messenger and 2) Face Dance Challenge.</p>
+            <h5>User Testing</h5>
+            <p>Then I <a href="https://www.youtube.com/embed/UCPuFhtKV34">tested 2 users</a> with paper prototypes and here are the major takeaways from the test:</p>
+            <ul>
+                <li>It's hard for users to find out where the extensions live under Messenger text chat mode.</li>
+                <li>Users only react the emojis that shows on their half of the screen.</li>
+                <li>When the game ends, users are confused as they were not able to see their partner in the leading board screens, even though they are actually in a video chat.</li>
+            </ul>
+            <!-- <iframe src="https://www.youtube.com/embed/UCPuFhtKV34" allowfullscreen></iframe> -->
+            <!-- <h6>Low-fi prototype demonstration</h6>
+            <p>With clearer picture of how my final design would be like, I started to work on my low-fi prototypes that <strong>models 10 tasks and 15+ interactions</strong> I would like to test. </p> -->
+            <h4>Design Details</h4>
+            <h5>Game Invocation</h5>
+            <p>There are 2 ways to invoke FDC in Messenger: 1) tap invocation and 2) tongue invocation, making the FDC more accessible.</p>
+            <img src="" alt="game invocation img">
+            <h5>Interactive Game</h5>
+            <p>Couples would be able to see each other's change of facial expression, talk and laugh with each other and even feel each other via haptic feedback in the game.</p>
+            <img src="" alt="interactive game img">
+            <h5>Scoring</h5>
+            <p>FDC has a cooperation-based scoring mechanism -- Partners aren't competing against their loved ones but other couples.</p>
+            <img src="" alt="scoring img">
+            <h5>Digital Prototype</h5>
+            <p>I've put together a working <a href="https://invis.io/6SERY10CF">prototype</a> in InVision to show the full functionality of how Face Dance Challenge works as a Messenger game extension.</p>
+            <h4>Major Design Changes</h4>
             <img src="img/portfolio/major_design_change.png" alt="major design change">
             <p class="text-justify"> The biggest design change occurred during my first user test on paper prototypes when <strong>my user told me that she had no idea that couples playing FDC are in charge of one side of the facial expression</strong> despite the instruction provided before the game starts. </p>
             <p>In the original design, the emoji would fly into the screen vertically from the bottom side of the screen. Since my user was <strong>confused about how to react when she saw an emoji flying on the other side of the screen,</strong> I decided that emoji would always fly in the middle from the bottom, <i>which sacrifice the level of difficulty but improves the interaction.</i> </p>
