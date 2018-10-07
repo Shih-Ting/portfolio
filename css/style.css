@@ -6,7 +6,7 @@ header {
     font-size: 105%;
     /*box-shadow: 0px 0px 0px 1px rgba(141, 141, 139, .75);*/
     width: 100%;
-    position: fixed;
+    /*position: fixed;*/
 }
 
 .intro img {
@@ -31,7 +31,7 @@ header {
 
 .centered {
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
@@ -39,29 +39,66 @@ header {
 
 
 
-/*.top_centered{
+.top_left{
 	position: absolute;
-    top: 25%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 32.5%;
+    left: 5%;
+    /*transform: translate(-50%, -50%);*/
     z-index: 1;
 }
 
-.top_centered h1 {
+
+
+.top_left h1{
+    font-size: 1em;
+}
+
+.top_left h2{ 
+    font-size: 0.4em;
+    margin-bottom: 0em;
+}
+
+.top_left p{
+    font-size: 0.05em;
+    font-weight: lighter;
+}
+
+/*.top_left p{
+    margin-top: 0em;
+    font-size: 0.1em;
+    font-weight: lighter;
+}*/
+
+
+
+/*.top_left h1 {
     font-size: 1.2em;
 }
 
-.top_centered h2 {
+.top_left h2 {
     font-size: 0.9em;
 }*/
 
 .centered h1 {
     font-size: 1.2em;
+    text-align: center;
 }
 
 .centered h2 {
     font-size: 0.9em;
+    text-align: center;
 }
+
+
+/*.top_left h1{
+    font-size: 1.2em;
+    z-index: 1;
+}
+
+.top_left h2 {
+    font-size: 0.9em;
+    z-index: 1;
+}*/
 
 
 
@@ -143,13 +180,13 @@ h1 {
     margin-top: 2.2em;
     margin-bottom: 0;
     font-size: 1.75em;
-    text-align: center;
+    text-align: left;
 }
 
 h2 {
     font-size: 1.25em;
     margin-top: 0.8em;
-    text-align: center;
+    text-align: left;
     font-weight: bold;
     font-weight: lighter;
     margin-bottom: 1.5em;
@@ -208,7 +245,7 @@ h6 {
 
 hr {
     border: 0;
-    border-bottom: 5px dashed #ccc;
+    border-bottom: 2.5px dashed #ccc;
     /*background: #fff;*/
     /*#999*/
 }
@@ -325,9 +362,9 @@ nav {
 }
 
 
-.cover {
-    padding-top: 10em;
-}
+/*.cover {
+    padding-top: 0.53em;
+}*/
 
 .intro {
     padding-top: 20em;
@@ -336,7 +373,7 @@ nav {
 .cover img {
     display: block;
     width: 100%;
-    padding-top: 3em;
+    padding-bottom: 3em;
 }
 
 
@@ -557,18 +594,21 @@ ol {
     /*box-sizing: border-box;*/
 }
 
-iframe {
-    max-width: 100%;
-    border: 0;
-    /*width: "1120";*/
-    /*438*/
-    /*height: "930";*/
+.resp-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
 }
 
+.resp-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
 
-
-
-/*width="280" height="157.5"*/
 
 footer {
     /*color: #F54320;*/
