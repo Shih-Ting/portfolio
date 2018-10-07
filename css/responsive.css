@@ -18,7 +18,7 @@
 
     .centered h2 {
         color: #fff;
-        font-size: 1.2em;
+        font-size: 1.1em;
     }
 
     .top_left {
@@ -35,7 +35,7 @@
     }
 
     .top_left h2 {
-        font-size: 1.2em;
+        font-size: 1.1em;
     }
 
     .top_left p{
@@ -116,7 +116,7 @@
 
     /*Open img*/
     .intro {
-        padding-top: 16em;
+        padding-top: 8.5em;
     }
 
     /*.cover {
@@ -127,9 +127,9 @@
         padding-top: 10em;
     }
 
-    .intro br {
+    /*.intro br {
         line-height: 1em;
-    }
+    }*/
 
     .photo-cell img {
         width: 100%;
