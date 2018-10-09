@@ -39,8 +39,8 @@ header {
 
 
 
-.top_left{
-	position: absolute;
+.top_left {
+    position: absolute;
     top: 32.5%;
     left: 5%;
     /*transform: translate(-50%, -50%);*/
@@ -49,16 +49,16 @@ header {
 
 
 
-.top_left h1{
+.top_left h1 {
     font-size: 1em;
 }
 
-.top_left h2{ 
+.top_left h2 {
     font-size: 0.4em;
     margin-bottom: 0em;
 }
 
-.top_left p{
+.top_left p {
     font-size: 0.05em;
     font-weight: lighter;
 }
@@ -105,8 +105,8 @@ header {
 
 
 /*.nav{
-	float: right;
-	height: 8vh;
+    float: right;
+    height: 8vh;
 }*/
 
 
@@ -194,7 +194,7 @@ h2 {
 
 h3 {
     font-size: 1.4em;
-   	margin-top: 0.05em;
+    margin-top: 0.05em;
     margin-bottom: 0.1em;
     font-weight: lighter;
     text-align: left;
@@ -272,7 +272,7 @@ nav {
 
 
 /*.top-nav ul li, .menu-icon{
-	border-top: 1px solid #DDDDDA;
+    border-top: 1px solid #DDDDDA;
 }*/
 
 .top-nav ul li a {
@@ -330,10 +330,10 @@ nav {
 
 /*.top-nav ul li a:hover:before, .top-nav ul li a:focus:before{
     content: "\27A4  ";
-  	color: #DDDDDA;
-  	padding-right: 4px;
-  	position: relative;
-  	top: 1px;
+    color: #DDDDDA;
+    padding-right: 4px;
+    position: relative;
+    top: 1px;
 }*/
 
 
@@ -358,7 +358,8 @@ nav {
 .logo img {
     /*display: block;*/
     height: 3em;
-    t/*ext-align: center;*/
+    t
+    /*ext-align: center;*/
 }
 
 
@@ -393,7 +394,7 @@ nav {
 
 
 /*section .work{
-	z-index: -1;
+    z-index: -1;
 }*/
 
 .work {
@@ -410,6 +411,13 @@ nav {
     z-index: -1;
 }
 
+/*.graphic-cell {
+    position: relative;
+    min-height: 1px;
+    z-index: -1;
+}*/
+
+
 .photo-cell img {
     max-width: 100%;
     display: block;
@@ -417,6 +425,13 @@ nav {
     margin: 0 0;
     /*z-index: -1;*/
 }
+
+/*.graphic-cell img {
+    max-width: 100%;
+    display: block;
+    position: relative;
+    margin: 0 0;
+}*/
 
 .photo_des p {
     padding-bottom: 4%;
@@ -432,13 +447,13 @@ a {
 
 
 /*#caption1, #caption2{
-	max-width: 100%;
-	margin: 0 0;
-	background-color: #fff;
-	text-align: center;
-	padding: 1% 0px;
-	margin-bottom: 4%;
-	z-index: -2;
+    max-width: 100%;
+    margin: 0 0;
+    background-color: #fff;
+    text-align: center;
+    padding: 1% 0px;
+    margin-bottom: 4%;
+    z-index: -2;
 }*/
 
 .photo-list {
@@ -446,6 +461,12 @@ a {
     border-bottom-color: #DCDDDD;
     border-bottom-width: 5px;
 }
+
+/*.graphic-list {
+    padding-bottom: 5%;
+    border-bottom-color: #DCDDDD;
+    border-bottom-width: 5px;
+}*/
 
 
 
@@ -507,16 +528,54 @@ a {
 
 
 .persona_grid {
-	display: inline-block;
+    display: inline-block;
     width: 22%;
     padding-right: 1%;
     padding-left: 1%;
 }
 
+/*.graphic-grid{
+    display: inline-block;
+    width: 22%;
+    padding-right: 1%;
+    padding-left: 1%;
+    padding-bottom: 2em;
+}*/
 
-/*	#caption1, #caption2{
-		width: 45%;
-	}*/
+
+/*  #caption1, #caption2{
+        width: 45%;
+    }*/
+
+
+/*TEST*/
+#graphic {
+    line-height: 2em;
+
+    -webkit-column-count: 3;
+    -webkit-column-gap: 1em;
+    -moz-column-count: 3;
+    -moz-column-gap: 1em;
+    column-count: 3;
+    column-gap: 1em;
+    padding-bottom: 3em;
+}
+
+#graphic img {
+    /* Just in case there are inline attributes */
+    width: 100% !important;
+    height: auto !important;
+}
+
+#graphic {
+    -moz-column-count: 1;
+    -webkit-column-count: 1;
+    column-count: 1;
+    padding-bottom: 1em;
+}
+
+
+
 
 
 
@@ -572,7 +631,7 @@ ol {
 }
 
 .frame_res{
-	padding-bottom: 178%;
+    padding-bottom: 178%;
 }
 
 .invision_frame iframe {
