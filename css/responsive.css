@@ -205,6 +205,10 @@
         padding-bottom: 2em;
     }
 
+    .graphic{
+        padding-top: 2em; 
+    }
+
     /*  #item1, #item2, #caption1, #caption2{
         width: 47%;
         display: inline-block;
@@ -421,12 +425,12 @@
 
 
 
-    .photo-grid #item1,
+    /*.photo-grid #item1,
     #item4,
     #g1,
     #g4 {
         padding-left: 1%;
-    }
+    }*/
 
     div {
         display: block;
