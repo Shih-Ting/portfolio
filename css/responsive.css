@@ -162,6 +162,7 @@
         text-decoration: none;
     }
 
+
     .photo-grid #item1,
     #item3,
     #item5,
@@ -196,6 +197,11 @@
         -webkit-column-count: 2;
         column-count: 2;
         padding-bottom: 0em;
+        line-height: 2em;
+    }
+
+    #graphic p{
+        padding-bottom: 2em;
     }
 
     /*  #item1, #item2, #caption1, #caption2{
