@@ -504,7 +504,7 @@ a {
   background-color: #E4007F;
 }
 
-#item1:hover .overlay {
+#no:hover .overlay {
   opacity: 1;
 }
 
@@ -614,8 +614,10 @@ ol {
 .none {
     list-style-type: none;
     list-style-position: inside;
-    padding-left: 20px;
+    padding-left: 0px;
 }
+
+
 
 
 .overview {
