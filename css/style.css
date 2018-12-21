@@ -13,9 +13,9 @@ header {
     width: 100%;
 }
 
-/*strong{
-    font-family: "Barlow Bold";
-}*/
+strong{
+    font-weight: 600;
+}
 
 
 /*.container {
