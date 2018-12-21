@@ -13,6 +13,10 @@ header {
     width: 100%;
 }
 
+/*strong{
+    font-family: "Barlow Bold";
+}*/
+
 
 /*.container {
     position: relative;
@@ -484,6 +488,8 @@ a {
     border-bottom-color: #DCDDDD;
     border-bottom-width: 5px;
 }*/
+
+
 
 
 
