@@ -402,7 +402,7 @@
 
 
     .work {
-        padding-top: 10em;
+        padding-top: 9em;
     }
 
 
@@ -418,6 +418,10 @@
         display: inline-block;
         width: 30%;
         padding-right: 1%;
+        padding-bottom: 2%;
+    }
+
+    .photo-list{
         padding-bottom: 2%;
     }
 
