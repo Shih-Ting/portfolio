@@ -535,8 +535,8 @@ a {
 /*work piece page*/
 
 .content {
-    padding-left: 3em;
-    padding-right: 3em;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
 .content a {
@@ -680,14 +680,18 @@ ol {
     /*box-sizing: border-box;*/
 }
 
+div .resp-container{
+    z-index: -2;
+}
+
 .resp-container {
     position: relative;
     overflow: hidden;
-    padding-top: 56.25%;
+    /*padding-top: 56.25%;*/
 }
 
 .resp-iframe {
-    position: absolute;
+    position: block; /*absolute*/
     /*z-index: -1;*/
     top: 0;
     left: 0;
