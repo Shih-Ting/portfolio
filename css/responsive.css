@@ -241,6 +241,13 @@
             font-size: 1.1em;
             line-height: 2.2em;
             font-weight: light;
+            /*margin-top: 0.1em;*/
+            /*margin-bottom: 0.25em;*/ /*new*/
+        }
+
+        .content ol{
+            margin-top: 0em; /*new*/
+            padding-top: 0em;
         }
 
         .content li {
