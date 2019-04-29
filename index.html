@@ -22,10 +22,6 @@
         var newURL = $('a', this).prop('href');
         window.location = newURL;
     });
-    // $('.page-scroll li').on('click', function() {
-    //     var navURL = $('a', this).prop('href');
-    //     window.location = navURL ;
-    // });
     </script>
     <!-- Define keywords for search engines -->
     <meta name="keywords" content="Interaction Designer,Shih-Ting (Amy) Lin, Shih-Ting Lin, UX, Amy Lin, product designer, portfolio">
@@ -39,7 +35,7 @@
     <!-- FontAwesome -->
     <!-- Update -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <!-- Barlow -->
     <link href="https://fonts.googleapis.com/css?family=Barlow:400,600,700, 300,100,400italic,600italic, 700italic" rel="stylesheet" type="text/css">
     <!-- Montserrat -->
@@ -56,19 +52,21 @@
 <body>
     <header id="top">
         <nav class="top-nav" id="top-nav">
+            <span class="navbar-toggle" id="js-navbar-toggle">
+                <i class="fas fa-bars"></i>
+            </span>
             <div class="logo">
-                <a href="https://drive.google.com/open?id=18vhyT_qMwZSaAxfKW3NvZAUHauNmgnaV"><img src="img/logo/logo.png" alt="Shih-Ting's logo"></a>
+                <a href="index.html"><img src="img/logo/logo.png" alt="Shih-Ting's logo"></a>
             </div>
-            <div id="menu">
-                <ul>
-                    <li><a class="page-scroll current-page" href="#portfolio">WORK</a></li>
+            <div class="main-nav" id="menu">
+                <ul id="js-menu">
+                    <li><a class="page-scroll current-page" href="index.html#portfolio">WORK</a></li>
                     <li><a class="page-scroll" href="graphic.html">VISUAL</a></li>
                     <li><a class="page-scroll" href="about.html">ABOUT</a></li>
                     <li><a class="page-scroll" href="https://drive.google.com/file/d/13_UM4s0KL3TSjHBUeWdHWihlupRX1BIK/view?usp=sharing">RESUME</a></li>
-                    <!-- new -->
-                    
-                    <!-- <li><a class="page-scroll" href="#belief">BELIEF</a></li> -->
-                    <!-- <li><a class="page-scroll" href="https://drive.google.com/file/d/13_UM4s0KL3TSjHBUeWdHWihlupRX1BIK/view?usp=sharing">RESUME</a></li> -->
+                    <!-- <li><a class="page-scroll" href="about.html">ABOUT</a></li>
+                    <li><a class="page-scroll" href="award.html">AWARD</a></li>
+                    <li><a class="page-scroll" href="graphic.html">FUN</a></li> -->
                     <!-- <li><a href="index.html#portfolio" id="nav-p">Portfolio</a></li> -->
                 </ul>
             </div>
@@ -210,6 +208,13 @@
             </div>
         </div>
     </footer>
+<script type="text/javascript">
+let mainNav = document.getElementById("menu");
+let navBarToggle = document.getElementById("js-navbar-toggle");
+navBarToggle.addEventListener("click", function() {
+    mainNav.classList.toggle("active");
+});
+</script>
 </body>
 
 </html>

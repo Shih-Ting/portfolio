@@ -41,15 +41,21 @@
 <body>
     <header id="top">
         <nav class="top-nav" id="top-nav">
+            <span class="navbar-toggle" id="js-navbar-toggle">
+                <i class="fas fa-bars"></i>
+            </span>
             <div class="logo">
                 <a href="index.html"><img src="img/logo/logo.png" alt="Shih-Ting's logo"></a>
             </div>
-            <div id="menu">
-                <ul>
-                    <li><a class="page-scroll" href="index.html#portfolio">WORK</a></li>
+            <div class="main-nav" id="menu">
+                <ul id="js-menu">
+                    <li><a class="page-scroll current-page" href="index.html#portfolio">WORK</a></li>
                     <li><a class="page-scroll" href="graphic.html">VISUAL</a></li>
                     <li><a class="page-scroll" href="about.html">ABOUT</a></li>
                     <li><a class="page-scroll" href="https://drive.google.com/file/d/13_UM4s0KL3TSjHBUeWdHWihlupRX1BIK/view?usp=sharing">RESUME</a></li>
+                    <!-- <li><a class="page-scroll" href="about.html">ABOUT</a></li>
+                    <li><a class="page-scroll" href="award.html">AWARD</a></li>
+                    <li><a class="page-scroll" href="graphic.html">FUN</a></li> -->
                     <!-- <li><a href="index.html#portfolio" id="nav-p">Portfolio</a></li> -->
                 </ul>
             </div>
@@ -136,6 +142,13 @@
                 </div>
             </div>
         </footer>
+        <script type="text/javascript">
+        let mainNav = document.getElementById("menu");
+        let navBarToggle = document.getElementById("js-navbar-toggle");
+        navBarToggle.addEventListener("click", function() {
+            mainNav.classList.toggle("active");
+        });
+        </script>
 </body>
 
 </html>
