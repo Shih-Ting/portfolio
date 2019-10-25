@@ -166,6 +166,7 @@
     }
 
 
+
     .photo_des p {
         padding-bottom: 4%;
         text-decoration: none;
@@ -175,9 +176,13 @@
     .photo-grid #item1,
     #item3,
     #item5,
+    #item7,
+    #item9,
     #g1,
     #g3,
-    #g5 {
+    #g5,
+    #g7,
+    #g9 {
         padding-left: 1%;
     }
 
