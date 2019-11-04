@@ -577,7 +577,7 @@ a {
     margin-right: auto;
     margin-left: auto;
     z-index: -1;
-    padding-top: 0.5em;
+    /*padding-top: 0.5em;*/
 }
 
 
@@ -734,7 +734,6 @@ div .resp-container{
 
 
 .order {
-    /*display: inline-flex;*/
     margin-right: auto;
     margin-left: auto;
     padding-top: 3em;
