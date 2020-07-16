@@ -449,8 +449,8 @@ nav {
 }
 
 .graphic {
-    padding-right: 4%;
-    padding-left: 4%;
+    padding-right: 2.5em; /*4%*/
+    padding-left: 2.5em; /*4%*/
 }
 
 .photo-cell {

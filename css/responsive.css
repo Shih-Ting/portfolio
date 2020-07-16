@@ -29,7 +29,7 @@
 
     .top_left {
         position: absolute;
-        top: 37%;
+        top: 33%;
         /*17%*/
         left: 4.5%;
         /*transform: translate(-50%, -50%);*/
@@ -52,7 +52,7 @@
     }
 
     .main-content {
-        padding-top: 0;
+        padding-top: 2em;
     }
 
     /*  .top-nav ul li a.pre, .top-nav ul li a.nxt{
@@ -107,7 +107,7 @@
     .top-nav ul {
         text-align: center;
         /*border-top: 1px red solid;*/
-        padding: 0.8em;
+        padding: 0.5em; /*0.8em*/
         /*new*/
     }
 
@@ -134,7 +134,7 @@
     }
 
     .cover {
-        padding-top: 6em;
+        padding-top: 5.4em; /*6em*/
         padding-bottom: 0.8em;
     }
 
@@ -212,7 +212,7 @@
         -webkit-column-count: 2;
         column-count: 2;
         padding-bottom: 0em;
-        line-height: 2em;
+        line-height: 2.9em; /*2em*/
     }
 
     #graphic p {
@@ -287,9 +287,10 @@
         font-size: 1.3em;
     }
 
+
     .top_left {
         position: absolute;
-        top: 35%;
+        top: 40%; /*35%*/
         /*14%*/
         left: 11%;
         /*transform: translate(-50%, -50%);*/
@@ -311,12 +312,13 @@
     }
 
     .cover img {
-        padding-bottom: 4em;
+        padding-bottom: 1em; /*3em*/
+        padding-top: 1.25em;
     }
 
 
     .main-content {
-        padding-top: 3em;
+        padding-top: 2.8em;
     }
 
 
@@ -540,7 +542,7 @@
 
     /*TEST*/
     #graphic {
-        line-height: 2em;
+        line-height: 2.82em; /*2em*/
 
         -webkit-column-count: 3;
         -webkit-column-gap: 1em;
