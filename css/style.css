@@ -13,8 +13,12 @@ header {
     width: 100%;
 }
 
+/*strong {
+    font-weight: 600; 
+}*/
+
 strong {
-    font-weight: 600;
+    font-weight: 600; 
 }
 
 video {
@@ -59,6 +63,7 @@ video {
     font-size: 1em;
     display: block;
     margin-top: 0;
+    font-weight: 600;
 }
 
 .top_left h2 {
@@ -67,7 +72,7 @@ video {
 }
 
 .top_left p {
-    font-size: 0.05em;
+    font-size: 0.2em;
     font-weight: lighter;
 }
 
@@ -90,6 +95,7 @@ video {
 .centered h1 {
     font-size: 1.2em;
     text-align: center;
+    font-weight: 800;
 }
 
 .centered h2 {
@@ -490,6 +496,9 @@ nav {
     font-size: 0.5em;
 }
 
+b{
+    font-weight: 600;
+}
 
 a {
     text-decoration: none;
