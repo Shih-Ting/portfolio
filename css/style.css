@@ -31,7 +31,7 @@ video {
     font-weight: 600;
 }
 
-
+/*before*/
 .about_pic{
     padding-top: 20%;
     display: block;
@@ -40,6 +40,16 @@ video {
     margin-right: auto;
 
 }
+
+/*    container*/
+/*.about_pic{
+    position: relative;
+    width: 100%;
+    padding-top: 2.2em;
+    overflow: hidden;
+    z-index: -20;
+}*/
+
 
 
 .topimage {

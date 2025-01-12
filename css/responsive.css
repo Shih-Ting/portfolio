@@ -1,12 +1,12 @@
-@media only screen and (min-width: 767px) and (max-width: 1225px) {
+@media only screen and (min-width: 767px) and (max-width: 1260px) {
 
-    .about_pic{
-    padding-top: 20%;
-    display: block;
-    max-width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-
+    .about_pic {
+        padding-top: 12%;
+        /*    before: 20%;*/
+        display: block;
+        /*    max-width: 60%;*/
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .content p {
@@ -47,7 +47,7 @@
 
 
     .top_left h1 {
-/*        margin-top: 3.2em;*/
+        /*        margin-top: 3.2em;*/
         font-size: 1.5em;
     }
 
@@ -117,7 +117,8 @@
     .top-nav ul {
         text-align: center;
         /*border-top: 1px red solid;*/
-        padding: 0.5em; /*0.8em*/
+        padding: 0.5em;
+        /*0.8em*/
         /*new*/
     }
 
@@ -136,7 +137,6 @@
         width: 100%;
         padding-top: 1%;
     }*/
-
     /*Open img*/
     .intro {
         /*padding-top: 8.5em;*/
@@ -144,8 +144,8 @@
     }
 
     .cover {
-        padding-top: 5.4em; /*6em*/
-        padding-bottom: 0.8em;
+        /*        padding-top: 5.4em; /*6em*/
+        */ padding-bottom: 0.8em;
     }
 
     .cover img {
@@ -159,7 +159,6 @@
     /*.intro br {
         line-height: 1em;
     }*/
-
     .photo-cell img {
         width: 100%;
         padding-right: 5%;
@@ -222,7 +221,8 @@
         -webkit-column-count: 2;
         column-count: 2;
         padding-bottom: 0em;
-        line-height: 2.9em; /*2em*/
+        line-height: 2.9em;
+        /*2em*/
     }
 
     #graphic p {
@@ -244,7 +244,6 @@
     /*  .photo-list{
         width: 100%;
     }*/
-
     .navbar-toggle {
         display: none;
     }
@@ -253,35 +252,51 @@
         display: block;
     }
 
-    #js-menu li{
+    #js-menu li {
         line-height: 1.2em;
     }
-
-
 }
 
-@media only screen and (min-width: 1225px) {
-
-    .about_pic{
-    padding-top: 2.2em;
-    float:left;
-    max-width: 40%;
+@media only screen and (min-width: 1260px) and (max-width: 3000px) {
+    /*    1225*/
+    .about_pic {
+        /*    container*/
+        position: relative;
+        max-width: 95%;
+        height: 0;
+        padding-top: 3%;
+        /*    adding*/
+        overflow: hidden;
+        padding-bottom: 28%;
+        /*display: block;
+    max-height: 5%*/
+        /*    float:left;*/
+        /*    max-width: 40%;*/
     }
 
-    .bio{
+    .about_pic img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .bio {
+        padding-left: 8em;
+        padding-right: 8em;
+    }
+    /*    .bio{
         padding-top: 2.5em;
         padding-left: 48%;
-    }
-
-    .bio h1{
+    }*/
+    /*.bio h1{
         margin-top: 0;
     }
-
+*/
     /*.bio h2{
         margin-bottom: 0;
     }*/
-
-    .bio h4{
+    .bio h4 {
         padding-top: 1em;
     }
 
@@ -325,7 +340,8 @@
 
     .top_left {
         position: absolute;
-        top: 40%; /*35%*/
+        top: 40%;
+        /*35%*/
         /*14%*/
         left: 11%;
         /*transform: translate(-50%, -50%);*/
@@ -347,13 +363,15 @@
     }
 
     .cover img {
-        padding-bottom: 1em; /*3em*/
+        padding-bottom: 1em;
+        /*3em*/
         padding-top: 1.25em;
     }
 
 
     .main-content {
         padding-top: 2.8em;
+        padding-bottom: 2em;
     }
 
 
@@ -512,21 +530,16 @@
         padding-right: 1%;
         padding-bottom: 1%;
     }*/
-
     /*.photo-grid #item1,
     #item4, #g1, #g4 {
         padding-left: 1%;
     }*/
-
-
-
     /*.photo-grid #item1,
     #item4,
     #g1,
     #g4 {
         padding-left: 1%;
     }*/
-
     div {
         display: block;
     }
@@ -578,8 +591,8 @@
 
     /*TEST*/
     #graphic {
-        line-height: 2.82em; /*2em*/
-
+        line-height: 2.82em;
+        /*2em*/
         -webkit-column-count: 3;
         -webkit-column-gap: 1em;
         -moz-column-count: 3;
@@ -601,7 +614,7 @@
         display: block;
     }
 
-    #js-menu li{
+    #js-menu li {
         line-height: 1.2em;
         padding-top: 0.5em;
     }
@@ -614,8 +627,6 @@
         -webkit-column-count: 3;
         column-count: 3;
     }*/
-
-
     /*  #item3, #item4{
         width:21.25%;
         display: inline-block;
@@ -637,4 +648,256 @@
         display: inline-block;
         width: 33%;
     }*/
+}
+
+
+
+@media only screen and (min-width: 2000px) {
+    .about_pic {
+        position: relative;
+        max-width: 100%;
+        height: 0;
+        padding-top: 5%;
+        overflow: hidden;
+        padding-bottom: 23%
+    }
+
+    .about_pic img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+
+
+    .bio h4 {
+        padding-top: 1em;
+    }
+
+    .work {
+        padding-right: 0.5%;
+        padding-left: 1%;
+    }
+
+    .content {
+        padding-left: 40em;
+        padding-right: 40em;
+    }
+
+    .content p {
+        font-size: 1em;
+        line-height: 1.8em;
+        font-weight: light;
+    }
+
+    .content ol {
+        margin-top: 0em;
+        padding-top: 0em;
+    }
+
+    .content li {
+        line-height: 1.8em;
+        font-size: 1em;
+    }
+
+    .centered h1 {
+        color: #fff;
+        font-size: 1.8em;
+    }
+
+    .centered h2 {
+        color: #fff;
+        font-size: 1.3em;
+    }
+
+    .top_left {
+        position: absolute;
+        top: 40%;
+        left: 11%;
+        z-index: 1;
+    }
+
+    .top_left h1 {
+        font-size: 2em;
+    }
+
+    .top_left h2 {
+        font-size: 1.5em;
+    }
+
+    .top_left p {
+        font-size: 1.2em;
+        font-weight: lighter;
+    }
+
+    /*.cover{
+        position: relative;
+        width: 100%;
+        height: 0;
+        object-fit: cover;
+    }
+
+    .cover img {
+        display: block;
+        padding-bottom: 1em;
+        padding-top: 1.25em;
+        
+    }*/
+    .main-content {
+        padding-top: 2.8em;
+    }
+
+    h1 {
+        font-size: 1.85em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    h3 {
+        font-size: 1.45em;
+        line-height: 1.8em;
+    }
+
+    h4 {
+        font-size: 1.2em;
+    }
+
+    h5 {
+        font-size: 1.1em;
+    }
+
+    h6 {
+        font-size: 0.98em;
+        line-height: 1.5em;
+        padding-top: 0.5em;
+    }
+
+    .logo {
+        float: left;
+        height: 70%;
+    }
+
+    .top-nav ul li {
+        display: inline-block;
+        border-top: none;
+        margin-top: 3.5%;
+    }
+
+    .top-nav ul {
+        padding: 0;
+    }
+
+    #menu {
+        float: right;
+        text-align: right;
+        width: auto;
+        position: absolute;
+        right: 0px;
+    }
+
+    li a:hover {
+        color: #DCDDDD !important;
+    }
+
+    .top-nav .logo {
+        float: left;
+    }
+
+    .intro {
+        padding-top: 8em;
+    }
+
+    .work {
+        padding-top: 9em;
+    }
+
+    .photo-cell img {
+        width: 100%;
+        padding-right: 5%;
+    }
+
+    .photo-grid {
+        display: inline-block;
+        width: 30%;
+        padding-right: 1%;
+        padding-bottom: 2%;
+    }
+
+    .photo-list {
+        padding-bottom: 2%;
+        padding-right: 20em;
+        padding-left: 20em;
+    }
+
+    div {
+        display: block;
+    }
+
+
+    .overview {
+        width: 100%;
+        display: inline-flex;
+        padding-bottom: 1em;
+    }
+
+    .group1,
+    .group2 {
+        width: 50%;
+        display: inline-flex;
+    }
+
+    #info1 {
+        width: 108%;
+    }
+
+    .info {
+        padding-bottom: 0.4em;
+        padding-left: 0.1em;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #info2 {
+        width: 83%;
+    }
+
+    #info1,
+    #info3 {
+        width: 90%;
+    }
+
+    #info4 {
+        width: 83%;
+    }
+
+    #graphic {
+        line-height: 2.82em;
+        -webkit-column-count: 3;
+        -webkit-column-gap: 1em;
+        -moz-column-count: 3;
+        -moz-column-gap: 1em;
+        column-count: 3;
+        column-gap: 1em;
+        padding-bottom: 3em;
+    }
+
+    .order {
+        margin: auto;
+    }
+
+    .navbar-toggle {
+        display: none;
+    }
+
+    .main-nav {
+        display: block;
+    }
+
+    #js-menu li {
+        line-height: 1.2em;
+        padding-top: 0.5em;
+    }
 }
