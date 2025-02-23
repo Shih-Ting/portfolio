@@ -417,9 +417,16 @@ nav {
 
 .logo {
     text-align: center;
-    /*padding: .25em .75em;*/
     padding-top: 0.25em;
 }
+
+/*logo align left*/
+/*.logo {
+    float: left;
+    margin-left: 0.5%;
+    padding-top: 0.25em;
+}*/
+
 
 .logo img {
     /*display: block;*/

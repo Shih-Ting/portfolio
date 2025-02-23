@@ -122,6 +122,8 @@
         /*new*/
     }
 
+
+
     /*.top-nav ul:before {
         content: '';
         display: block;
@@ -429,6 +431,10 @@
     .logo {
         float: left;
         height: 70%;
+    }
+
+    .logo img {
+        margin-left: 5%;
     }
 
     /*  .top-nav {
@@ -779,6 +785,12 @@
         float: left;
         height: 70%;
     }
+
+
+    .logo img {
+        margin-left: 3.5%;
+    }
+
 
     .top-nav ul li {
         display: inline-block;
